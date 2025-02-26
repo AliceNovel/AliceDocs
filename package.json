@@ -21,7 +21,7 @@
     "thulite": "^2.5.0"
   },
   "devDependencies": {
-    "prettier": "^3.5.1",
+    "prettier": "^3.5.2",
     "vite": "^6.1.1"
   },
   "engines": {
