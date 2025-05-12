@@ -23,6 +23,7 @@ Alice Project で開発している Anov 構文や Anproj 形式などの技術 
 
 - Alice Novel を使う
 - Alice Console を使う
+- Aqua Notes を使う (beta)
 
 公式の方法以外にも、サードパーティー製のツールを使うことも可能です。
 
@@ -35,7 +36,7 @@ Alice Novel は Alice Project が開発する最大のツールです。
 
 #### インストール
 
-1. https://github.com/AliceNovel/AliceNovel/releases/latest にアクセス
+1. <https://github.com/AliceNovel/AliceNovel/releases/latest> にアクセス
 1. 下にスクロールし、`Assets` から `<os>-ci-build.zip` をダウンロード
 1. ZIP ファイルを展開
 
@@ -54,7 +55,7 @@ Alice Console は Alice Project が開発する CLI ツールです。
 
 #### インストール
 
-1. https://github.com/AliceNovel/AliceConsole/releases/latest にアクセス
+1. <https://github.com/AliceNovel/AliceConsole/releases/latest> にアクセス
 1. 下にスクロールし、`Assets` から `<os>-<architecture>.zip` をダウンロード
 1. ZIP ファイルを展開
 
@@ -68,6 +69,26 @@ Alice Console は Alice Project が開発する CLI ツールです。
 # 例:
 ./AliceConsole main.anov
 ```
+
+{{< /tab >}}
+{{< tab "Aqua Notes" >}}
+
+### Aqua Notes を使う
+
+Aqua Notes は Alice Project が開発するウェブ上で開発できるツールです。
+
+#### インストール
+
+インストールは不要です。インストールしたい場合は、[PWA](https://web.dev/explore/progressive-web-apps) が利用できます。
+
+#### 利用方法
+
+1. <https://alicenovel.github.io/AquaNotes/> にアクセス
+1. 左のバーから、`Reader` ページを開く
+1. テキストボックスに Anov 構文で書く
+1. 書き終わったら `Submit` ボタンを押す
+
+その後 `ReadAll` ボタンを押すことで、読み込み進めることができます。
 
 {{< /tab >}}
 {{< /tabs >}}
