@@ -36,8 +36,8 @@ The Alice Novel is the greatest tool created by the Alice Project.
 
 #### Installation
 
-1. Open: https://github.com/AliceNovel/AliceNovel/releases/latest
-1. Scroll and download `<os>-ci-build.zip` in the `Assets` section
+1. Access to <https://github.com/AliceNovel/AliceNovel/releases/latest>
+1. Scroll down and download `<os>-ci-build.zip` in the `Assets` section
 1. Unarchive the ZIP file
 
 Then, you can use the executable file.
@@ -55,8 +55,8 @@ The Alice Console is useful CLI tool created by the Alice Project.
 
 #### Installation
 
-1. Open: https://github.com/AliceNovel/AliceConsole/releases/latest
-1. Scroll and download `<os>-<architecture>.zip` in the `Assets` section
+1. Access to <https://github.com/AliceNovel/AliceConsole/releases/latest>
+1. Scroll down and download `<os>-<architecture>.zip` in the `Assets` section
 1. Unarchive the ZIP file
 
 After add permission to it, you can use the command.
@@ -79,11 +79,11 @@ The Aqua Notes is useful web-based development tool created by the Alice Project
 
 #### Installation
 
-Install is not necessary. If you want to install it, you can search [PWA](https://web.dev/explore/progressive-web-apps).
+Install is not necessary. If you want to install it, you can search about [PWA](https://web.dev/explore/progressive-web-apps).
 
 #### How to use
 
-1. Access: <https://alicenovel.github.io/AquaNotes/>
+1. Access to <https://alicenovel.github.io/AquaNotes/>
 1. Open `Reader` page from left-bar
 1. Write Anov Syntax in the textbox
 1. Push `Submit` button when you finished write it

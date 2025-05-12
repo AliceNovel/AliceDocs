@@ -36,7 +36,7 @@ Alice Novel は Alice Project が開発する最大のツールです。
 
 #### インストール
 
-1. https://github.com/AliceNovel/AliceNovel/releases/latest にアクセス
+1. <https://github.com/AliceNovel/AliceNovel/releases/latest> にアクセス
 1. 下にスクロールし、`Assets` から `<os>-ci-build.zip` をダウンロード
 1. ZIP ファイルを展開
 
@@ -55,7 +55,7 @@ Alice Console は Alice Project が開発する CLI ツールです。
 
 #### インストール
 
-1. https://github.com/AliceNovel/AliceConsole/releases/latest にアクセス
+1. <https://github.com/AliceNovel/AliceConsole/releases/latest> にアクセス
 1. 下にスクロールし、`Assets` から `<os>-<architecture>.zip` をダウンロード
 1. ZIP ファイルを展開
 
@@ -79,7 +79,7 @@ Aqua Notes は Alice Project が開発するウェブ上で開発できるツー
 
 #### インストール
 
-インストールは不要です。インストールしたい場合は、[PWA](https://web.dev/explore/progressive-web-apps) という方法が利用できます。
+インストールは不要です。インストールしたい場合は、[PWA](https://web.dev/explore/progressive-web-apps) が利用できます。
 
 #### 利用方法
 
@@ -88,7 +88,7 @@ Aqua Notes は Alice Project が開発するウェブ上で開発できるツー
 1. テキストボックスに Anov 構文で書く
 1. 書き終わったら `Submit` ボタンを押す
 
-このあと `ReadAll` ボタンを押すことで、読み込み進めることができます。
+その後 `ReadAll` ボタンを押すことで、読み込み進めることができます。
 
 {{< /tab >}}
 {{< /tabs >}}
