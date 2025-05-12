@@ -23,6 +23,7 @@ Below are the official recommendations on how to do this.
 
 - Using Alice Novel
 - Using Alice Console
+- Using Aqua Notes (beta)
 
 And then, you can also use tools created by therd-parties.
 
@@ -68,6 +69,26 @@ You can read `.anov` file with it.
 # e.g.
 ./AliceConsole main.anov
 ```
+
+{{< /tab >}}
+{{< tab "Aqua Notes" >}}
+
+### Aqua Notes (beta)
+
+The Aqua Notes is useful web-based development tool created by the Alice Project.
+
+#### Installation
+
+Install is not necessary. If you want to install it, you can search [PWA](https://web.dev/explore/progressive-web-apps).
+
+#### How to use
+
+1. Access: <https://alicenovel.github.io/AquaNotes/>
+1. Open `Reader` page from left-bar
+1. Write Anov Syntax in the textbox
+1. Push `Submit` button when you finished write it
+
+Then, push `ReadAll` button, system reads it.
 
 {{< /tab >}}
 {{< /tabs >}}

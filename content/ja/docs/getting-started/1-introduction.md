@@ -23,6 +23,7 @@ Alice Project で開発している Anov 構文や Anproj 形式などの技術 
 
 - Alice Novel を使う
 - Alice Console を使う
+- Aqua Notes を使う (beta)
 
 公式の方法以外にも、サードパーティー製のツールを使うことも可能です。
 
@@ -68,6 +69,26 @@ Alice Console は Alice Project が開発する CLI ツールです。
 # 例:
 ./AliceConsole main.anov
 ```
+
+{{< /tab >}}
+{{< tab "Aqua Notes" >}}
+
+### Aqua Notes を使う
+
+Aqua Notes は Alice Project が開発するウェブ上で開発できるツールです。
+
+#### インストール
+
+インストールは不要です。インストールしたい場合は、[PWA](https://web.dev/explore/progressive-web-apps) という方法が利用できます。
+
+#### 利用方法
+
+1. <https://alicenovel.github.io/AquaNotes/> にアクセス
+1. 左のバーから、`Reader` ページを開く
+1. テキストボックスに Anov 構文で書く
+1. 書き終わったら `Submit` ボタンを押す
+
+このあと `ReadAll` ボタンを押すことで、読み込み進めることができます。
 
 {{< /tab >}}
 {{< /tabs >}}
