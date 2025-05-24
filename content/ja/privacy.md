@@ -3,7 +3,7 @@ title: "プライバシーポリシー"
 description: ""
 summary: ""
 date: 2023-09-07T17:19:07+02:00
-lastmod: 2023-09-07T17:19:07+02:00
+lastmod: 2025-05-24T16:22:00+09:00
 draft: false
 type: "legal"
 seo:
@@ -13,4 +13,6 @@ seo:
   robots: "" # custom robot tags (optional)
 ---
 
-<!-- Add the Privacy Policy from Lemon's Resting Area -->
+Alice Project のすべてのアプリケーションは、すべての個人情報やユーザーデータをアクセス、収集、利用、共有、送信しません。
+
+All of Alice Project Apps do not access, collect, use, share or transmit any personal information or user data whatsoever. 
