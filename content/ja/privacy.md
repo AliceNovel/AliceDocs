@@ -14,5 +14,3 @@ seo:
 ---
 
 Alice Project のすべてのアプリケーションは、すべての個人情報やユーザーデータをアクセス、収集、利用、共有、送信しません。
-
-All of Alice Project Apps do not access, collect, use, share or transmit any personal information or user data whatsoever. 
