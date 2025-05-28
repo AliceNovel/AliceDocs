@@ -36,6 +36,14 @@ The Alice Novel is the greatest tool created by the Alice Project.
 
 #### Installation
 
+Microsoft Store version is here:
+
+<a href="https://apps.microsoft.com/detail/9mvs80m1ps8v?referrer=appbadge&mode=direct">
+	<img src="https://get.microsoft.com/images/en-us%20light.svg" width="200"/>
+</a>
+
+ZIP version is here:
+
 1. Access to <https://github.com/AliceNovel/AliceNovel/releases/latest>
 1. Scroll down and download `<os>-ci-build.zip` in the `Assets` section
 1. Unarchive the ZIP file
