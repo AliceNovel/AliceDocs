@@ -37,11 +37,13 @@ Alice Novel は Alice Project が開発する最大のツールです。
 #### インストール
 
 Microsoft Store 版はこちら:
+
 <a href="https://apps.microsoft.com/detail/9mvs80m1ps8v?referrer=appbadge&mode=direct">
 	<img src="https://get.microsoft.com/images/ja%20light.svg" width="200"/>
 </a>
 
 ZIP 版はこちらから:
+
 1. <https://github.com/AliceNovel/AliceNovel/releases/latest> にアクセス
 1. 下にスクロールし、`Assets` から `<os>-ci-build.zip` をダウンロード
 1. ZIP ファイルを展開
