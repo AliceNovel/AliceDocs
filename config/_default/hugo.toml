@@ -88,3 +88,6 @@ copyRight = "Copyright (c) 2023-2025 Alice Project"
 [services]
   [services.googleAnalytics]
     id = 'G-94WLDEKKRG'
+
+[pagination]
+  pagerSize = 10

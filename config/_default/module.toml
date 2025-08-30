@@ -1,4 +1,12 @@
-# mounts
+# Module Configuration File
+#
+# This file configures Hugo module settings, particularly module mounts which
+# define how content is organized within the project.
+#
+# Mounts specify file paths in your project that Hugo should use when building
+# the site. They allow for custom directory structures and integrating content
+# from different locations.
+
 ## archetypes
 [[mounts]]
   source = "node_modules/@thulite/doks-core/archetypes"
@@ -72,6 +80,8 @@
   target = "layouts"
 
 [[mounts]]
+  # Exclude 'home.html' to avoid conflicts with a custom home page layout defined in the local 'layouts' directory.
+  excludeFiles = "home.html"
   source = "node_modules/@thulite/doks-core/layouts"
   target = "layouts"
 
