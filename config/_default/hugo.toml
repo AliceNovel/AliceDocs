@@ -8,7 +8,6 @@ enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
 languageCode = "en-US"
-pagerSize = 10
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
@@ -78,6 +77,9 @@ copyRight = "Copyright (c) 2023-2025 Alice Project"
       name = "date"
       weight = 10
 
+[pagination]
+  pagerSize = 10
+
 [imaging]
   anchor = "Center"
   bgColor = "#ffffff"
@@ -88,6 +90,3 @@ copyRight = "Copyright (c) 2023-2025 Alice Project"
 [services]
   [services.googleAnalytics]
     id = 'G-94WLDEKKRG'
-
-[pagination]
-  pagerSize = 10
