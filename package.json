@@ -4,6 +4,10 @@
   "description": "The official website of the Alice Project. This website treats spec of the Anov syntax and Anproj file format.",
   "author": "Alice Project",
   "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/AliceNovel/AliceDocs.git"
+  },
   "scripts": {
     "create": "hugo new",
     "dev": "hugo server --disableFastRender --noHTTPCache",
