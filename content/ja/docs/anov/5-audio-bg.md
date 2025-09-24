@@ -41,3 +41,4 @@ bgm:
 
 - Alice Novel: v0.9.0-rc2 以降
 - Alice Console: *未対応*
+- Common Novel: [v0.1.0](https://github.com/AliceNovel/CommonNovel/blob/v0.1.0/docs/v0.1.x/v0.1.0.ja.md#45-音声再生) (仕様上は利用できますが、実装は利用できません)

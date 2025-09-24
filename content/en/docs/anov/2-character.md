@@ -30,3 +30,4 @@ seo:
 
 - Alice Novel: v0.9.0-alpha or later
 - Alice Console: v0.1.0 or later
+- Common Novel: [v0.1.0](https://github.com/AliceNovel/CommonNovel/blob/v0.1.0/docs/v0.1.x/v0.1.0.md#42-character-name)
