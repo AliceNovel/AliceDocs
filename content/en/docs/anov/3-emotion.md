@@ -34,3 +34,4 @@ seo:
 
 - Alice Novel: *Unsupported*
 - Alice Console: v0.1.2 or later
+- Common Novel: [v0.1.0](https://github.com/AliceNovel/CommonNovel/blob/v0.1.0/docs/v0.1.x/v0.1.0.md#43-character-image--emotion) (only spec, implemention is unsupported)

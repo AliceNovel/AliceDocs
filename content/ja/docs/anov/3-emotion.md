@@ -34,3 +34,4 @@ seo:
 
 - Alice Novel: *未対応*
 - Alice Console: v0.1.2 以降
+- Common Novel: [v0.1.0](https://github.com/AliceNovel/CommonNovel/blob/v0.1.0/docs/v0.1.x/v0.1.0.ja.md#43-キャラクター画像感情) (仕様上は利用できますが、実装は利用できません)

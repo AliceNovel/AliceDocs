@@ -43,3 +43,4 @@ bgm:
 
 - Alice Novel: v0.9.0-rc2 or later
 - Alice Console: *Unsupported*
+- Common Novel: [v0.1.0](https://github.com/AliceNovel/CommonNovel/blob/v0.1.0/docs/v0.1.x/v0.1.0.md#45-play-audio) (only spec, implemention is unsupported)

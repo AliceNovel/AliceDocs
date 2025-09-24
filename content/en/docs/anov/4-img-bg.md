@@ -43,3 +43,4 @@ You can hide a background image that is already displayed by writing only `> `.
 
 - Alice Novel: v0.9.0-rc1 or later
 - Alice Console: *Unsupported*
+- Common Novel: [v0.1.0](https://github.com/AliceNovel/CommonNovel/blob/v0.1.0/docs/v0.1.x/v0.1.0.md#44-background-image--location) (only spec, implemention is unsupported)

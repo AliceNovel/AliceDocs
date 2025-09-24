@@ -29,3 +29,4 @@ seo:
 
 - Alice Novel: v0.9.0-alpha 以降
 - Alice Console: v0.1.0 以降
+- Common Novel: [v0.1.0](https://github.com/AliceNovel/CommonNovel/blob/v0.1.0/docs/v0.1.x/v0.1.0.ja.md#41-会話)
