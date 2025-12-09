@@ -24,17 +24,7 @@ Alice System は様々なプラットフォームで利用可能です。現在�
 
 ### Alice Novel を使う
 
-Alice Novel は .NET MAUI 9 をベースとしており、[そのサポート対象](https://learn.microsoft.com/ja-jp/dotnet/maui/supported-platforms?view=net-maui-9.0)と同様です。
-
-<!--
-#### 開発環境として
-
-- Windows (macOS の発行を除く)
-- macOS (Windows を除く)
-- Linux (Android のみ)
-
-#### 発行対象
--->
+Alice Novel は .NET MAUI 10 をベースとしており、[そのサポート対象](https://learn.microsoft.com/ja-jp/dotnet/maui/supported-platforms?view=net-maui-10.0)と同様です。
 
 - Windows 11, 10 バージョン 1809 以降 (WinUI 3)
 - macOS 12 以降 (Mac Catalyst)
@@ -46,19 +36,16 @@ Alice Novel は .NET MAUI 9 をベースとしており、[そのサポート対
 
 ### Alice Console を使う
 
-<!--
-#### 開発環境として
-
-- Windows
-- macOS
-- Linux
-
-#### 発行対象
--->
-
 - Windows (x86, x64, arm64)
 - macOS (x64, arm64)
 - Linux (x64, arm64)
+
+{{< /tab >}}
+{{< tab "Aqua Notes" >}}
+
+### Aqua Notes を使う
+
+Aqua Notes は、標準的なブラウザで利用できます。
 
 {{< /tab >}}
 {{< /tabs >}}

@@ -24,17 +24,7 @@ Alice System can be written for many platforms. Currently, we are thinking about
 
 ### Alice Novel
 
-Alice Novel is based on .NET MAUI (.NET 9), so the supported targets of Alice Novel are same as [them of .NET MAUI (.NET 9)](https://learn.microsoft.com/en-us/dotnet/maui/supported-platforms?view=net-maui-9.0).
-
-<!--
-#### As development environment
-
-- Windows (exclude publishment for macOS)
-- macOS (exclude publishment for Windows)
-- Linux (only for Android)
-
-#### Platform support
--->
+Alice Novel is based on .NET MAUI (.NET 10), so the supported targets of Alice Novel are same as [those of .NET MAUI (.NET 10)](https://learn.microsoft.com/en-us/dotnet/maui/supported-platforms?view=net-maui-10.0).
 
 - Windows 11, 10 version 1809 or higher (WinUI 3)
 - macOS 12 or higher (Mac Catalyst)
@@ -46,19 +36,16 @@ Alice Novel is based on .NET MAUI (.NET 9), so the supported targets of Alice No
 
 ### Alice Console
 
-<!--
-#### As development environment
-
-- Windows
-- macOS
-- Linux
-
-#### Platform support
--->
-
 - Windows (x86, x64, arm64)
 - macOS (x64, arm64)
 - Linux (x64, arm64)
+
+{{< /tab >}}
+{{< tab "Aqua Notes" >}}
+
+### Aqua Notes
+
+Aqua Notes works on basic browsers.
 
 {{< /tab >}}
 {{< /tabs >}}
