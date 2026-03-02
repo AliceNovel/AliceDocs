@@ -22,7 +22,7 @@
     "@thulite/inline-svg": "^1.2.2",
     "@thulite/seo": "^2.4.3",
     "firebase": "^12.8.0",
-    "thulite": "^2.6.4"
+    "thulite": "^2.6.5"
   },
   "devDependencies": {
     "prettier": "^3.8.1",
