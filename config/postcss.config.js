@@ -54,8 +54,8 @@ const purgecss = purgeCSSPlugin({
 });
 
 export default {
-  plugins: [
-    autoprefixer(),
-    ...(process.env.HUGO_ENVIRONMENT === "production" ? [purgecss] : []),
-  ],
+    plugins: [
+        autoprefixer(),
+        ...(process.env.HUGO_ENVIRONMENT === "production" ? [purgecss] : []),
+    ],
 };

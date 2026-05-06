@@ -1,10 +1,10 @@
 {
   "name": "aliceproject-website",
-  "version": "2025.5.0",
+  "version": "2026.5.0",
   "description": "The official website of the Alice Project. This website treats spec of the Anov syntax and Anproj file format.",
   "author": "Alice Project",
   "license": "MIT",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/AliceNovel/AliceDocs.git"
   },
