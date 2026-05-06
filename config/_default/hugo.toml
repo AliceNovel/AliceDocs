@@ -1,6 +1,5 @@
 title = "Alice Project Website"
 baseurl = "https://alicenovel.web.app"
-canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
@@ -79,6 +78,9 @@ copyRight = "Copyright (c) 2023-2026 Alice Project"
   keepComments = true # If set to false, build signatures are removed
   keepWhitespace = false
 
+[pagination]
+  pagerSize = 10
+
 [related]
   threshold = 80
   includeNewer = true
@@ -92,9 +94,6 @@ copyRight = "Copyright (c) 2023-2026 Alice Project"
     [[related.indices]]
       name = "date"
       weight = 10
-
-[pagination]
-  pagerSize = 10
 
 [imaging]
   anchor = "Center"
