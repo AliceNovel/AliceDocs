@@ -84,7 +84,7 @@ mathEngine = "KaTeX" # "KaTeX" (default) or "MathJax"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
-  krokiURL = "https://kroki.io" # "https://kroki.io" (default) or custom URL like http://localhost:8000.
+  krokiURL = "http://localhost:8000" # "https://kroki.io" (default) or custom URL like http://localhost:8000.
 
   # SCSS colors
   # backGround = "yellowgreen"

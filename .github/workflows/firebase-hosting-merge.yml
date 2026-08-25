@@ -16,6 +16,16 @@ jobs:
       contents: write
       checks: write
 
+    services:
+      kroki:  
+        image: yuzutech/kroki:0.32.1
+        env:
+          KROKI_MERMAID_HOST: mermaid   
+        ports:
+          - 8000:8000   
+      mermaid:  
+        image: yuzutech/kroki-mermaid:0.32.1
+
     steps:
       - uses: actions/checkout@v4
 
