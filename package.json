@@ -22,7 +22,7 @@
     "@thulite/inline-svg": "^1.2.2",
     "@thulite/seo": "^2.4.3",
     "firebase": "^12.19.0",
-    "thulite": "^2.6.5"
+    "thulite": "^3.0.2"
   },
   "overrides": {
     "minimatch": "^10.2.2",
