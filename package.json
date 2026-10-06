@@ -16,7 +16,7 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@tabler/icons": "^3.46.0",
+    "@tabler/icons": "^3.48.0",
     "@thulite/doks-core": "github:thuliteio/doks-core#a8d0eb8e90cb638da27bbd23bb903786750537d4",
     "@thulite/images": "^3.3.4",
     "@thulite/inline-svg": "^1.2.2",
