@@ -1,6 +1,6 @@
 {
   "name": "aliceproject-website",
-  "version": "2026.9.0",
+  "version": "2026.10.0",
   "description": "The official website of the Alice Project. This website treats spec of the Anov syntax and Anproj file format.",
   "author": "Alice Project",
   "license": "MIT",
@@ -16,13 +16,13 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@tabler/icons": "^3.46.0",
-    "@thulite/doks-core": "github:thuliteio/doks-core#a8d0eb8e90cb638da27bbd23bb903786750537d4",
+    "@tabler/icons": "^3.48.0",
+    "@thulite/doks-core": "^1.9.4",
     "@thulite/images": "^3.3.4",
     "@thulite/inline-svg": "^1.2.2",
-    "@thulite/seo": "^2.4.3",
+    "@thulite/seo": "^2.4.4",
     "firebase": "^12.19.0",
-    "thulite": "^2.6.5"
+    "thulite": "^3.0.3"
   },
   "overrides": {
     "minimatch": "^10.2.2",
@@ -31,8 +31,8 @@
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.1",
     "@changesets/cli": "^3.0.3",
-    "prettier": "^3.9.6",
-    "vite": "^8.3.0"
+    "prettier": "^3.9.9",
+    "vite": "^8.3.1"
   },
   "engines": {
     "node": ">=24.13.0"
