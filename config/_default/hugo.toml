@@ -6,7 +6,7 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
-languageCode = "en-US"
+locale = "ja-JP"
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
@@ -105,3 +105,15 @@ copyRight = "Copyright (c) 2023-2026 Alice Project"
 [services]
   [services.googleAnalytics]
     id = 'G-94WLDEKKRG'
+
+# For windows developer (hugo and dart-sass related setting)
+[security.exec]
+allow = [
+  '^(dart-)?sass(-embedded)?$',
+  '^sass\.exe$', # For Dart-Sass
+  '^go$',
+  '^git$',
+  '^node$',
+  '^postcss$',
+  '^tailwindcss$',
+]

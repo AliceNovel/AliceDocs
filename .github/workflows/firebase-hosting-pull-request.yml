@@ -2,6 +2,12 @@ name: Deploy to Firebase Hosting on PR
 
 on: pull_request
 
+env:
+  # Define tool versions
+  DART_SASS_VERSION: 1.105.1
+  GO_VERSION: 1.27.2
+  HUGO_VERSION: 0.168.0
+
 jobs:
   build_and_preview:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
@@ -37,15 +43,22 @@ jobs:
 
       - uses: actions/setup-go@v4
         with:
-          go-version: "^1.26.0"
+          go-version: ${{ env.GO_VERSION }}
       - run: go version
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          # hugo-version: "latest"
-          hugo-version: "0.156.0"
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
+
+      - name: Install Dart Sass
+        run: |
+          echo "Installing Dart Sass ${{ env.DART_SASS_VERSION }}..."
+          curl -sfL --output-dir "${{ runner.temp }}" -O "https://github.com/sass/dart-sass/releases/download/${{ env.DART_SASS_VERSION }}/dart-sass-${{ env.DART_SASS_VERSION }}-linux-x64.tar.gz"
+          mkdir -p "${HOME}/.local"
+          tar -C "${HOME}/.local" -xf "${{ runner.temp }}/dart-sass-${{ env.DART_SASS_VERSION }}-linux-x64.tar.gz"
+          echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
 
       - run: npm ci && npm run build
 
