@@ -13,6 +13,7 @@ Require commands:
 - `npm`
 - `golang`
 - `hugo`
+- `dart-sass`
 
 ```sh
 # install dependencies

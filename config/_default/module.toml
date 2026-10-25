@@ -11,22 +11,26 @@
 [[mounts]]
   source = "content/en"
   target = "content"
-  lang = "en"
+  [mounts.sites.matrix]
+    languages = ["en"]
 
 [[mounts]]
   source = "content/ja"
   target = "content"
-  lang = "ja"
+  [mounts.sites.matrix]
+    languages = ["ja"]
 
 [[mounts]]
   source = "content/de"
   target = "content"
-  lang = "de"
+  [mounts.sites.matrix]
+    languages = ["de"]
 
 [[mounts]]
   source = "content/nl"
   target = "content"
-  lang = "nl"
+  [mounts.sites.matrix]
+    languages = ["nl"]
 
 ## data
 [[mounts]]
