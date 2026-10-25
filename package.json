@@ -21,7 +21,7 @@
     "@thulite/images": "^3.3.4",
     "@thulite/inline-svg": "^1.2.2",
     "@thulite/seo": "^2.4.4",
-    "firebase": "^12.19.0",
+    "firebase": "^13.1.0",
     "thulite": "^3.0.3"
   },
   "overrides": {
