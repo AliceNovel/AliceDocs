@@ -45,20 +45,21 @@ jobs:
 
       - uses: actions/setup-go@v4
         with:
-          go-version: ${GO_VERSION}
+          go-version: ${{ env.GO_VERSION }}
       - run: go version
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: ${HUGO_VERSION}
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
       - name: Install Dart Sass
         run: |
-          echo "Installing Dart Sass ${DART_SASS_VERSION}..."
-          curl -sfL --output-dir "${{ runner.temp }}" -O "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-          tar -C "${HOME}/.local" -xf "${{ runner.temp }}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          echo "Installing Dart Sass ${{ env.DART_SASS_VERSION }}..."
+          curl -sfL --output-dir "${{ runner.temp }}" -O "https://github.com/sass/dart-sass/releases/download/${{ env.DART_SASS_VERSION }}/dart-sass-${{ env.DART_SASS_VERSION }}-linux-x64.tar.gz"
+          mkdir -p "${HOME}/.local"
+          tar -C "${HOME}/.local" -xf "${{ runner.temp }}/dart-sass-${{ env.DART_SASS_VERSION }}-linux-x64.tar.gz"
           echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
 
       - run: npm ci && npm run build
